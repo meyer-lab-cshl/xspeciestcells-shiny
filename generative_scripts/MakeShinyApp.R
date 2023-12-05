@@ -590,7 +590,7 @@ makeShinyFiles(obj=seur.human,
                gex.slot = "data",
                gene.mapping = FALSE,
                shiny.prefix = "sc_hu",
-               shiny.dir = "shinyAppMulti/",
+               shiny.dir = "xspeciesTcellsApp/",
                default.gene1 = "CD4",
                default.gene2 = "CD8A",
                default.multigene = c("CCR6","RORC","GZMB","GNLY","TBX21",
@@ -633,7 +633,7 @@ makeShinyFiles(obj=seur.ms,
                gex.slot = "data",
                gene.mapping = FALSE,
                shiny.prefix = "sc_ms",
-               shiny.dir = "shinyAppMulti/",
+               shiny.dir = "xspeciesTcellsApp/",
                default.gene1 = "Cd4",
                default.gene2 = "Cd8a",
                default.multigene = c("Ccl5", "Fosb", "Rorc", "Gzmb", "Nkg7", "Zbtb16",
@@ -660,7 +660,7 @@ makeShinyCodesMulti(
   shiny.footnotes = citation,
   shiny.prefix = c("sc_hu", "sc_ms"),
   shiny.headers = c("Human data", "Mouse data"), 
-  shiny.dir = "shinyAppMulti/")
+  shiny.dir = "xspeciesTcellsApp/")
 
 
 
